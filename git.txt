@@ -6,3 +6,12 @@ git checkout <name branch>
 git checkout -b <name branch>
 git merge <name branch>
 :wq
+
+git remote -v 
+git remove add origin <url>
+git push --all origin
+git pull
+
+
+-----linux
+ls -al
