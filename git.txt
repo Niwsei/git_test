@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m ""
+git branch
+git checkout <name branch>
+git checkout -b <name branch>
+git merge <name branch>
+:wq
