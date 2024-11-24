@@ -13,8 +13,28 @@ git push --all origin
 git push origin <branch name>
 git pull origin <branch name>
 git fetch
+git branch -d <branch_name>
 
 
+
+
+
+
+ลบ Branch บน Remote (Server):
+git push origin --delete <branch_name>
+
+
+
+ดูรายชื่อ Branch บน Remote:
+git branch -r
+
+
+ดึง branch เฉพาะที่ต้องการ:
+git checkout -b <branch_name> origin/<branch_name>
+
+
+ใช้ git branch -a เพื่อดู branch ทั้งหมดทั้ง local และ remote:
+git branch -a
 
 -----linux
 ls -al
