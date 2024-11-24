@@ -10,7 +10,9 @@ git merge <name branch>
 git remote -v 
 git remove add origin <url>
 git push --all origin
+git push origin <branch name>
 git pull
+
 
 
 -----linux
